@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Cake</title>
+</head>
+<body>
+    <header><h1>La mejor pastelería de León Gto.</h1></header>
+    <nav class="navbar">
+        <div class="brand" id="brand-me">
+          <img src="img/Logo pastelería Space X.png" alt="" width="300px" height="300px">
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#direccion">Dirección</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#horarios">Horarios de atención</a></li>
+          <li><a href="#pedido">Pedido</a></li>
+          <li><a href="pastelero.html">Pastelero</a></li>
+        </ul>
+      </nav>
+      <hr>
+    <h1>Pasteles y sabores</h1>
+<img src="img/Space cake menuv2.png" alt="" width="400px" height="500px">
+    
+    <hr>
+    <h1>Precios</h1>
+    <table border="1px">
+      <tr>
+          <th>Pasteles</th>
+          <th>Descripción</th>
+          <th>Sabores</th>
+          <th>Precio</th>
+      </tr>
+      <tr>
+          <td>Pastel de 3 lunas</td>
+          <td>Es de 3 leches ya sea de chocolate o vainilla</td>
+          <td>Chocolate y vainilla</td>
+          <td>$50 rebanada/ $250 completo</td>
+      </tr>
+      <tr>
+          <td>Pastel luna negra</td>
+          <td>Pastel con relleno de chocolate amargo y con cubierta de elección</td>
+          <td>Chocolate, vainilla y fresa</td>
+          <td>$50 rebanada/ $250 completo</td>
+      </tr>
+      <tr>
+        <td>Pastel Júpiter de chocolate</td>
+        <td>Tienes la elección de combinar todos sabores en un solo pastel</td>
+        <td>Chocolate de leche,oscuro y blanco</td>
+        <td>$50 rebanada/ $250 completo</td>
+    </tr>
+    <tr>
+      <td>Pastel suave con jalea de estrellas</td>
+      <td>Pastel de sabor a elección con relleno de mermelada</td>
+      <td>Vainilla, Moka y café</td>
+      <td>$50 rebanada/ $250 completo</td>
+  </tr>
+  <tr>
+    <td>Pastel de chocolate y arándaliens</td>
+    <td>El pan puede ser del sabor a elección y arándanos en la cubierta</td>
+    <td>Chocolate, Zanahoria y frutos rojos</td>
+    <td>$50 rebanada/ $250 completo</td>
+</tr>
+  </table>  
+
+    <hr>
+    <h1 id="direccion">Dirección</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55673194.2614789!2d-132.62631076110944!3d31.605853906343693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sEstados%20Unidos!5e0!3m2!1ses-419!2smx!4v1646439660695!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <hr>
+    <h1 id="contacto">Contacto</h1>
+    <ul>
+      <li>Teléfono: 3483924837</li>
+      <li>Correo: spaceCake@gmail.com</li>
+      <li>Whatsapp: 3483924837</li>
+  </ul>
+    <hr>
+    <h1 id="horarios">Horarios</h1>    
+    <table border="1px">
+      <tr>
+          <th>Días</th>
+          <th>Horarios</th>
+      </tr>
+      <tr>
+          <td>Lunes</td>
+          <td>9:00am-2:00pm y 4:00pm-8:00pm</td>
+      </tr>
+      <tr>
+          <td>Martes</td>
+          <td>9:00am-2:00pm y 4:00pm-8:00pm</td>
+      </tr>
+      <tr>
+        <td>Miércoles</td>
+        <td>9:00am-2:00pm y 4:00pm-8:00pm</td>
+    </tr>
+    <tr>
+      <td>Jueves</td>
+      <td>9:00am-2:00pm y 4:00pm-8:00pm</td>
+  </tr>
+  <tr>
+    <td>Viernes</td>
+    <td>4:00pm-8:00pm</td>
+</tr>
+  </table>
+
+  <hr>
+  <h1 id="pedido">Has tu pedido ¡Aquí!</h1>
+  <form action="/accion.js" id="form1" method="post">
+  <!-- Labels / Etiquetas -->
+  <label for="Input1">Ingresa tu nombre</label>
+  <br>
+  <!-- Entradas / Inputs -->
+  <input type="text" id="Input1" name="Input1">
+  <br><br>
+
+  <label for="tel1">Teléfono</label><br>
+  <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+  
+  <label for="correo1">Correo electrónico</label><br>
+  <input type="email" id="correo1" name="correo1"><br><br>
+  
+  <!-- Labels / Etiquetas -->
+  <label for="Input2">Descripción pastel</label>
+  <br>
+  <!-- Entradas / Inputs -->
+  <input type="text" id="Input2" name="Input2">
+  <br><br>
+  
+  <h2>Sabores</h2>
+  <input type="checkbox" id="topping1" name="topping1" value="Fresa">
+  <label for="topping1">Fresa</label><br>
+  <input type="checkbox" id="topping2" name="topping2" value="Chocolate">
+  <label for="topping2">Chocolate</label><br>
+  <input type="checkbox" id="topping3" name="topping3" value="Vainilla">
+  <label for="topping3">Vainilla</label><br>
+  <input type="checkbox" id="topping4" name="topping4" value="Moka">
+  <label for="topping4">Moka</label><br>
+  <input type="checkbox" id="topping5" name="topping5" value="Café">
+  <label for="topping5">Café</label><br>
+  <input type="checkbox" id="topping6" name="topping6" value="Zanahoria">
+  <label for="topping6">Zanahoria</label><br>
+  
+  <h2>Adorno</h2>
+  <input type="checkbox" id="liston" name="adornos" value="liston">
+  <label for="liston">Listón</label><br>
+  <input type="checkbox" id="vela" name="adornos" value="vela">
+  <label for="vela">Vela</label><br>
+  <input type="checkbox" id="figurasChocolate" name="adornos" value="figurasChocolate">
+  <label for="figurasChocolate">Figuras de Chocolate</label><br><br>
+
+  <input type="reset"><br>
+  <input type="submit"><br>
+</form>
+
+  </body>
+<footer>
+  <p>All rights reserved</p>
+</footer>
+</html>
